@@ -6,4 +6,4 @@ vendor/
 __pycache__/
 *.pyc
 .pytest_cache/
-datasets.
+/datasets/
