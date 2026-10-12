@@ -1,0 +1,2 @@
+[console_scripts]
+roarm-keyboard = roarm_keyboard.app:main

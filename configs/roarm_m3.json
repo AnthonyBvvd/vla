@@ -1,0 +1,20 @@
+{
+  "type": "roarm_m3_follower",
+  "id": "roarm_m3",
+  "port": "/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_eab38e83de7fef11b482241cedd322a4-if00-port0",
+  "baudrate": 115200,
+  "max_relative_target": 5.0,
+  "cameras": {
+    "front": {
+      "type": "opencv",
+      "index_or_path": "/dev/v4l/by-id/usb-DJI_OsmoAction6_SN:207EE7DD_123456789ABCDEF-video-index0",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "fourcc": "MJPG",
+      "color_mode": "rgb",
+      "backend": 200,
+      "warmup_s": 1
+    }
+  }
+}

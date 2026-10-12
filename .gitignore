@@ -1,0 +1,8 @@
+.venv/
+.cache/
+.downloads/
+.tools/
+vendor/
+__pycache__/
+*.pyc
+.pytest_cache/

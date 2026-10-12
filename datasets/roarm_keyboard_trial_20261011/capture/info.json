@@ -1,0 +1,32 @@
+{
+  "repo_id": "local/roarm_keyboard",
+  "fps": 5,
+  "gripper_type": "angular_direct",
+  "joint_names": [
+    "base.pos",
+    "shoulder.pos",
+    "elbow.pos",
+    "wrist_tilt.pos",
+    "wrist_roll.pos",
+    "gripper.pos"
+  ],
+  "angle_unit": "degree",
+  "image_size": [
+    640,
+    360
+  ],
+  "action_source": "next_observed_joint_state",
+  "action_offset_seconds": 0.2,
+  "input_camera": {
+    "type": "opencv",
+    "index_or_path": "/dev/v4l/by-id/usb-DJI_OsmoAction6_SN:207EE7DD_123456789ABCDEF-video-index0",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "fourcc": "MJPG",
+    "color_mode": "rgb",
+    "backend": 200,
+    "warmup_s": 1
+  },
+  "control_input": "keyboard"
+}

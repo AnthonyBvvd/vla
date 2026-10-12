@@ -1,0 +1,77 @@
+{
+  "repo_id": "local/roarm_keyboard",
+  "root": "/home/mul/vla/datasets/roarm_keyboard_demo_20261011",
+  "episodes": 1,
+  "frames": 100,
+  "fps": 5,
+  "image_shape": [
+    3,
+    360,
+    640
+  ],
+  "joint_names": [
+    "base.pos",
+    "shoulder.pos",
+    "elbow.pos",
+    "wrist_tilt.pos",
+    "wrist_roll.pos",
+    "gripper.pos"
+  ],
+  "action_source": "next_observed_joint_state",
+  "next_state_pairing": true,
+  "act_chunk_shape": [
+    10,
+    6
+  ],
+  "last_chunk_padding": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "joint_range_degrees": [
+    14.150390625,
+    25.6640625,
+    18.80859375,
+    8.876953125,
+    0.4394531100988388,
+    0.0
+  ],
+  "max_step_degrees": [
+    2.373046875,
+    3.779296875,
+    2.197265625,
+    2.197265625,
+    0.3515624850988388,
+    0.0
+  ],
+  "sample_interval_seconds": {
+    "min": 0.19222776250171592,
+    "max": 0.2077428794982552,
+    "mean": 0.20005347907499527
+  },
+  "first_state": [
+    1.845703125,
+    3.515625,
+    92.4609375,
+    0.52734375,
+    0.3515625,
+    0.703125
+  ],
+  "last_target": [
+    15.99609375,
+    10.107421875,
+    111.26953125,
+    9.404296875,
+    0.439453125,
+    0.703125
+  ],
+  "act_forward_backward": true,
+  "act_test_loss": 4.364898681640625
+}

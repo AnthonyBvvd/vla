@@ -1,0 +1,8 @@
+-e ./vendor/lerobot[core_scripts]
+-e ./vendor/lerobot_robot_roarm_m3
+-e ./packages/roarm-keyboard
+torch==2.10.*
+torchvision==0.25.*
+torchcodec==0.10.*
+roarm_sdk==0.1.1
+pytest>=8,<9

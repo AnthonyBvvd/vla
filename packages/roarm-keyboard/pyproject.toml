@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=71"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roarm-keyboard"
+version = "0.1.0"
+description = "RoArm-M3 键盘连续运动控制与 LeRobot 图像角度采集"
+requires-python = ">=3.12"
+dependencies = ["pyserial>=3.5,<4"]
+
+[project.scripts]
+roarm-keyboard = "roarm_keyboard.app:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["roarm_keyboard*"]
